@@ -1,6 +1,6 @@
 Feature: General non-working API calls
 
-@negative
+
 Scenario Outline: Asserting correct response for non-working API calls
   Given I want to call "<method>" method
   When I send GET request
